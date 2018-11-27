@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\Interop.ActUtlTypeLib.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\Interop.MSXML2.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.csproj.ResolveComReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.Capture.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.FMain.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.MessageBoxVisual.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.UpdateDataExcel.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x64\Debug\ShivExcelLogging.csproj.CoreCompileInputs.cache
