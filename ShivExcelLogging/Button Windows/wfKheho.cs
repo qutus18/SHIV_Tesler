@@ -19,7 +19,6 @@ namespace ShivExcelLogging
         int countProcess = 0;
         Timer timerProcess = new Timer();
         int countAllowEnd = 0;
-        string _receiveString = "0.00";
         SerialPort ComKheho;
         private static float valueMax, valueMin;
         ActUtlType plcRef;

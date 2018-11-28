@@ -31,3 +31,36 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelL
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.csproj.CopyComplete
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.exe
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\ShivExcelLogging\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.pdb
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\concrt140.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\cvextern.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\msvcp140.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\opencv_ffmpeg330.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\vcruntime140.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\ShivExcelLogging.exe.config
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\ShivExcelLogging.exe
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\ShivExcelLogging.pdb
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\Emgu.CV.UI.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\Emgu.CV.World.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\ZedGraph.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\DocumentFormat.OpenXml.xml
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\Emgu.CV.UI.xml
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\Emgu.CV.World.xml
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\bin\x86\Release\Interop.ActUtlTypeLib.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\Interop.ActUtlTypeLib.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\Interop.MSXML2.dll
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.csproj.ResolveComReference.cache
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.wfDodao.resources
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.wfKheho.resources
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.Capture.resources
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.FMain.resources
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.MessageBoxVisual.resources
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.Properties.Resources.resources
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.UpdateDataExcel.resources
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.exe
+C:\Users\Admin\Source\Repos\SHIV_Tesler\ShivExcelLogging\obj\x86\Release\ShivExcelLogging.pdb

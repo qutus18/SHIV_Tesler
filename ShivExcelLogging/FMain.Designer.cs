@@ -144,6 +144,7 @@
             this.chkCapture.TabStop = false;
             this.chkCapture.Text = "Capture";
             this.chkCapture.UseVisualStyleBackColor = true;
+            this.chkCapture.Visible = false;
             this.chkCapture.CheckedChanged += new System.EventHandler(this.chkTest02_CheckedChanged);
             // 
             // chkTestForward
@@ -156,6 +157,7 @@
             this.chkTestForward.TabStop = false;
             this.chkTestForward.Text = "Forward";
             this.chkTestForward.UseVisualStyleBackColor = true;
+            this.chkTestForward.Visible = false;
             this.chkTestForward.CheckedChanged += new System.EventHandler(this.chkTest02_CheckedChanged);
             // 
             // chkTestBackward
@@ -168,6 +170,7 @@
             this.chkTestBackward.TabStop = false;
             this.chkTestBackward.Text = "Backward";
             this.chkTestBackward.UseVisualStyleBackColor = true;
+            this.chkTestBackward.Visible = false;
             this.chkTestBackward.CheckedChanged += new System.EventHandler(this.chkTest01_CheckedChanged);
             // 
             // btnCapture
@@ -234,7 +237,7 @@
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Margin = new System.Windows.Forms.Padding(4);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(755, 50);
+            this.pnlTop.Size = new System.Drawing.Size(481, 50);
             this.pnlTop.TabIndex = 2;
             // 
             // btnCloseApp
@@ -722,7 +725,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(755, 278);
+            this.ClientSize = new System.Drawing.Size(481, 278);
             this.Controls.Add(this.txtTempDisplay);
             this.Controls.Add(this.btnTest004);
             this.Controls.Add(this.btnTest003);

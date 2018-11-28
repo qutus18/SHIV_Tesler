@@ -82,5 +82,29 @@ namespace ShivExcelLogging {
                 this["WriteLogPos"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int StationPLC {
+            get {
+                return ((int)(this["StationPLC"]));
+            }
+            set {
+                this["StationPLC"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("COM8")]
+        public string COMSylvac {
+            get {
+                return ((string)(this["COMSylvac"]));
+            }
+            set {
+                this["COMSylvac"] = value;
+            }
+        }
     }
 }

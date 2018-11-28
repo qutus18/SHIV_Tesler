@@ -18,7 +18,7 @@ namespace ShivExcelLogging
         ActUtlType plcFX3G;
         Excel.Application myExcel;
 
-        short plcStationNumber = 1, D100;
+        short D100;
         int countPulse = 0, countNumberOfReadData = 0;
         Thread plcThread, dataThread;
         bool readLeft = false, readRight = false, dataLogging = false;
@@ -35,7 +35,7 @@ namespace ShivExcelLogging
         short[,,] collectVibrate = new short[40, 2, 20];
         short[] convertIndex = new short[50];
         short[] X0toX5 = new short[10];
-        short tempCountPulse = 0, temp02 = 0;
+        short tempCountPulse = 0;
 
         object misValue = System.Reflection.Missing.Value;
         private bool conditionRunCam;
@@ -46,14 +46,14 @@ namespace ShivExcelLogging
         private bool bitManual = false;
         private short countPulsetemp;
         private bool bitCaptureOpen;
-        private bool excelUsing;
         private string firstString;
         private string secondString;
         private string thirdString;
         private string stringKhehoTinh;
-        private bool formLock;
         Dictionary<string, bool> currentPLCBit = new Dictionary<string, bool>();
         private SerialPort COMSylvac;
+        private bool excelUsing;
+        private bool formLock;
         #endregion
         /// <summary>
         /// Hàm khởi tạo FMain
@@ -100,7 +100,7 @@ namespace ShivExcelLogging
         /// </summary>
         private void LoadSylvacCOM()
         {
-            COMSylvac = new SerialPort("COM8", 4800, Parity.Even, 7, StopBits.Two);
+            COMSylvac = new SerialPort(Setting.Default.COMSylvac, 4800, Parity.Even, 7, StopBits.Two);
             COMSylvac.DtrEnable = true;
             COMSylvac.Open();
         }
@@ -151,8 +151,8 @@ namespace ShivExcelLogging
         /// </summary>
         private void CreatLogFolder()
         {
-            if (!Directory.Exists("E:\\Log\\" + DateTime.Now.ToString("yyyyMM")))
-                Directory.CreateDirectory("E:\\Log\\" + DateTime.Now.ToString("yyyyMM"));
+            if (!Directory.Exists(Setting.Default.LogFolderIndex + "\\" + DateTime.Now.ToString("yyyyMM")))
+                Directory.CreateDirectory(Setting.Default.LogFolderIndex + "\\" + DateTime.Now.ToString("yyyyMM"));
         }
 
         /// <summary>
@@ -173,7 +173,7 @@ namespace ShivExcelLogging
         {
             // Khai báo kết nối đến PLC, với cổng kết nối plcStationNumber (cài đặt qua Mitsubishi Communication Setup Utility)
             plcFX3G = new ActUtlType();
-            plcFX3G.ActLogicalStationNumber = plcStationNumber;
+            plcFX3G.ActLogicalStationNumber = Setting.Default.StationPLC;
             currentPLCBit.Add("X10", false);
             currentPLCBit.Add("X11", false);
             currentPLCBit.Add("X12", false);
@@ -183,7 +183,7 @@ namespace ShivExcelLogging
                 ReadD100AndSaveToArray(); // Lấy dữ liệu D100 lưu vào mảng 20pt
                 ReadX0ToX5AndProcess(); // Đọc các giá trị Input của PLC -> PC
                 CountNumberOfPulseX0(); // Đếm xung số vòng quay
-                ReadNewButtonStatus(); // Đọc giá trị 3 nút nhấn - Chụp ảnh, Đo khe hở, Đo độ đảo
+                ReadNewPLCButtonStatus(); // Đọc giá trị 3 nút nhấn - Chụp ảnh, Đo khe hở, Đo độ đảo
                 Thread.Sleep(10);
             }
         }
@@ -191,7 +191,7 @@ namespace ShivExcelLogging
         /// <summary>
         /// Đọc giá trị 3 nút nhấn - Chụp ảnh, Đo khe hở, Đo độ đảo
         /// </summary>
-        private void ReadNewButtonStatus()
+        private void ReadNewPLCButtonStatus()
         {
             int buttonRead;
             var iret = plcFX3G.GetDevice("X10", out buttonRead);
@@ -613,8 +613,8 @@ namespace ShivExcelLogging
         /// </summary>
         private void GenerateNewFolderLogFile()
         {
-            if (!Directory.Exists("E:Log\\" + DateTime.Now.ToString("yyyyMMdd")))
-                Directory.CreateDirectory("E:Log\\" + DateTime.Now.ToString("yyyyMMdd"));
+            if (!Directory.Exists(Setting.Default.LogFolderIndex + "\\" + DateTime.Now.ToString("yyyyMMdd")))
+                Directory.CreateDirectory(Setting.Default.LogFolderIndex + "\\" + DateTime.Now.ToString("yyyyMMdd"));
         }
 
         /// <summary>
@@ -648,7 +648,7 @@ namespace ShivExcelLogging
             }
 
             // Xóa dữ liệu Check bằng tay
-            resetRange = (Excel.Range)tempWorkSheet.Range["R19", "T28"]; // T218
+            resetRange = (Excel.Range)tempWorkSheet.Range["R19", "T218"]; // T218
             resetRange.Value2 = "";
             // Xóa dữ liệu biểu đồ
             tempWorkSheet = myExcel.ActiveWorkbook.Worksheets[5];
